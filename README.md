@@ -6,18 +6,12 @@
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+HI!
 
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+AlephBet is designed to help students learn Hebrew for the first time,
+from 2nd to 6th grade! It is currently in development for use at
+Avahath Achim Synagogue in Atlanta during the 2017 Fall. 
+It is designed and coded on the Cloud 9 (c9) platform. 
 
 
 ## Support & Documentation
