@@ -1,0 +1,300 @@
+.grid{
+    position: absolute;
+    box-sizing: border-box;
+    --unit: calc( 100vw / 12);
+    overflow: hidden;
+}
+
+/* ============================================= */
+/* ================ For Phones ==================*/
+/* ============================================= */
+@media only screen and (max-width: 600px){
+    /*Set Width of an Element*/
+    .pw12 {width: calc( var(--unit) * 12);}
+    
+    /*Set Height of an Element*/
+    .ph1 {height: calc( var(--unit) * 1);}
+    .ph2 {height: calc( var(--unit) * 2);}
+    .ph3 {height: calc( var(--unit) * 3);}
+    .ph4 {height: calc( var(--unit) * 4);}
+    .ph5 {height: calc( var(--unit) * 5);}
+    .ph6 {height: calc( var(--unit) * 6);}
+    .ph7 {height: calc( var(--unit) * 7);}
+    .ph8 {height: calc( var(--unit) * 8);}
+    .ph9 {height: calc( var(--unit) * 9);}
+    .ph10 {height: calc( var(--unit) * 10);}
+    .ph11 {height: calc( var(--unit) * 11);}
+    .ph12 {height: calc( var(--unit) * 12);}
+    .ph13 {height: calc( var(--unit) * 13);}
+    .ph14 {height: calc( var(--unit) * 14);}
+    .ph15 {height: calc( var(--unit) * 15);}
+    .ph16 {height: calc( var(--unit) * 16);}
+    .ph17 {height: calc( var(--unit) * 17);}
+    .ph18 {height: calc( var(--unit) * 18);}
+    .ph19 {height: calc( var(--unit) * 19);}
+    .ph20 {height: calc( var(--unit) * 20);}
+    .ph21 {height: calc( var(--unit) * 21);}
+    .ph22 {height: calc( var(--unit) * 22);}
+    .ph23 {height: calc( var(--unit) * 23);}
+    .ph24 {height: calc( var(--unit) * 24);}
+    
+    /*Set X Grid Coordinate*/
+    .pc1 {left: calc( var(--unit) * 0);}
+    
+    /*Set Y Grid Coordinate*/
+    .pr1 {top: calc( var(--unit) * 0);}
+    .pr2 {top: calc( var(--unit) * 1);}    
+    .pr3 {top: calc( var(--unit) * 2);}    
+    .pr4 {top: calc( var(--unit) * 3);}    
+    .pr5 {top: calc( var(--unit) * 4);}    
+    .pr6 {top: calc( var(--unit) * 5);}    
+    .pr7 {top: calc( var(--unit) * 6);}    
+    .pr8 {top: calc( var(--unit) * 7);}    
+    .pr9 {top: calc( var(--unit) * 8);}    
+    .pr10 {top: calc( var(--unit) * 9);}    
+    .pr11 {top: calc( var(--unit) * 10);}    
+    .pr12 {top: calc( var(--unit) * 11);}
+    .pr13 {top: calc( var(--unit) * 12);}
+    .pr14 {top: calc( var(--unit) * 13);}
+    .pr15 {top: calc( var(--unit) * 14);}
+    .pr16 {top: calc( var(--unit) * 15);}
+    .pr17 {top: calc( var(--unit) * 16);}
+    .pr18 {top: calc( var(--unit) * 17);}
+    .pr19 {top: calc( var(--unit) * 18);}
+    .pr20 {top: calc( var(--unit) * 19);}
+    .pr21 {top: calc( var(--unit) * 20);}
+    .pr22 {top: calc( var(--unit) * 21);}
+    .pr23 {top: calc( var(--unit) * 22);}
+    .pr24 {top: calc( var(--unit) * 23);}
+    .pr25 {top: calc( var(--unit) * 24);}
+    .pr26 {top: calc( var(--unit) * 25);}
+    .pr27 {top: calc( var(--unit) * 26);}
+    .pr28 {top: calc( var(--unit) * 27);}
+    .pr29 {top: calc( var(--unit) * 28);}
+    .pr30 {top: calc( var(--unit) * 29);}
+    .pr31 {top: calc( var(--unit) * 30);}
+    .pr32 {top: calc( var(--unit) * 31);}
+    .pr33 {top: calc( var(--unit) * 32);}
+    .pr34 {top: calc( var(--unit) * 33);}
+    .pr35 {top: calc( var(--unit) * 34);}
+    .pr36 {top: calc( var(--unit) * 35);}
+    .pr37 {top: calc( var(--unit) * 36);}
+    .pr38 {top: calc( var(--unit) * 37);}
+    .pr39 {top: calc( var(--unit) * 38);}
+    .pr40 {top: calc( var(--unit) * 39);}
+    .pr41 {top: calc( var(--unit) * 40);}
+    .pr42 {top: calc( var(--unit) * 41);}
+    .pr43 {top: calc( var(--unit) * 42);}
+    .pr44 {top: calc( var(--unit) * 43);}
+    .pr45 {top: calc( var(--unit) * 44);}
+    .pr46 {top: calc( var(--unit) * 45);}
+    .pr47 {top: calc( var(--unit) * 46);}
+    .pr48 {top: calc( var(--unit) * 47);}    
+}    
+
+
+/* ============================================= */
+/* ================ For Tabletes ================*/
+/* ============================================= */
+@media only screen and (min-width: 601px){
+    /*Set Width of an Element*/
+    .tw1 {width: calc( var(--unit) * 1);}
+    .tw2 {width: calc( var(--unit) * 2 );}
+    .tw3 {width: calc( var(--unit) * 3 );}
+    .tw4 {width: calc( var(--unit) * 4 );}
+    .tw5 {width: calc( var(--unit) * 5 );}
+    .tw6 {width: calc( var(--unit) * 6 );}
+    .tw7 {width: calc( var(--unit) * 7 );}
+    .tw8 {width: calc( var(--unit) * 8 );}
+    .tw9 {width: calc( var(--unit) * 9 );}
+    .tw10 {width: calc( var(--unit) * 10 );}
+    .tw11 {width: calc( var(--unit) * 11 );}
+    .tw12 {width: calc( var(--unit) * 12 );}
+    
+    /*Set Height of an Element*/
+    .th1 {height: calc( var(--unit) * 1);}
+    .th2 {height: calc( var(--unit) * 2);}
+    .th3 {height: calc( var(--unit) * 3);}
+    .th4 {height: calc( var(--unit) * 4);}
+    .th5 {height: calc( var(--unit) * 5);}
+    .th6 {height: calc( var(--unit) * 6);}
+    .th7 {height: calc( var(--unit) * 7);}
+    .th8 {height: calc( var(--unit) * 8);}
+    .th9 {height: calc( var(--unit) * 9);}
+    .th10 {height: calc( var(--unit) * 10);}
+    .th11 {height: calc( var(--unit) * 11);}
+    .th12 {height: calc( var(--unit) * 12);}
+    .th13 {height: calc( var(--unit) * 13);}
+    .th14 {height: calc( var(--unit) * 14);}
+    .th15 {height: calc( var(--unit) * 15);}
+    .th16 {height: calc( var(--unit) * 16);}
+    .th17 {height: calc( var(--unit) * 17);}
+    .th18 {height: calc( var(--unit) * 18);}
+    .th19 {height: calc( var(--unit) * 19);}
+    .th20 {height: calc( var(--unit) * 20);}
+    .th21 {height: calc( var(--unit) * 21);}
+    .th22 {height: calc( var(--unit) * 22);}
+    .th23 {height: calc( var(--unit) * 23);}
+    .th24 {height: calc( var(--unit) * 24);}
+    
+    /*Set X Grid Coordinate*/
+    .tc1 {left: calc( var(--unit) * 0);}
+    .tc2 {left: calc( var(--unit) * 1);}    
+    .tc3 {left: calc( var(--unit) * 2);}    
+    .tc4 {left: calc( var(--unit) * 3);}    
+    .tc5 {left: calc( var(--unit) * 4);}    
+    .tc6 {left: calc( var(--unit) * 5);}    
+    .tc7 {left: calc( var(--unit) * 6);}    
+    .tc8 {left: calc( var(--unit) * 7);}    
+    .tc9 {left: calc( var(--unit) * 8);}    
+    .tc10 {left: calc( var(--unit) * 9);}    
+    .tc11 {left: calc( var(--unit) * 10);}  
+    .tc12 {left: calc( var(--unit) * 11);}  
+    
+    /*Set Y Grid Coordinate*/
+    .tr1 {top: calc( var(--unit) * 0);}
+    .tr2 {top: calc( var(--unit) * 1);}    
+    .tr3 {top: calc( var(--unit) * 2);}    
+    .tr4 {top: calc( var(--unit) * 3);}    
+    .tr5 {top: calc( var(--unit) * 4);}    
+    .tr6 {top: calc( var(--unit) * 5);}    
+    .tr7 {top: calc( var(--unit) * 6);}    
+    .tr8 {top: calc( var(--unit) * 7);}    
+    .tr9 {top: calc( var(--unit) * 8);}    
+    .tr10 {top: calc( var(--unit) * 9);}    
+    .tr11 {top: calc( var(--unit) * 10);}    
+    .tr12 {top: calc( var(--unit) * 11);}
+    .tr13 {top: calc( var(--unit) * 12);}
+    .tr14 {top: calc( var(--unit) * 13);}
+    .tr15 {top: calc( var(--unit) * 14);}
+    .tr16 {top: calc( var(--unit) * 15);}
+    .tr17 {top: calc( var(--unit) * 16);}
+    .tr18 {top: calc( var(--unit) * 17);}
+    .tr19 {top: calc( var(--unit) * 18);}
+    .tr20 {top: calc( var(--unit) * 19);}
+    .tr21 {top: calc( var(--unit) * 20);}
+    .tr22 {top: calc( var(--unit) * 21);}
+    .tr23 {top: calc( var(--unit) * 22);}
+    .tr24 {top: calc( var(--unit) * 23);}
+    .tr25 {top: calc( var(--unit) * 24);}
+    .tr26 {top: calc( var(--unit) * 25);}
+    .tr27 {top: calc( var(--unit) * 26);}
+    .tr28 {top: calc( var(--unit) * 27);}
+    .tr29 {top: calc( var(--unit) * 28);}
+    .tr30 {top: calc( var(--unit) * 29);}
+    .tr31 {top: calc( var(--unit) * 30);}
+    .tr32 {top: calc( var(--unit) * 31);}
+    .tr33 {top: calc( var(--unit) * 32);}
+    .tr34 {top: calc( var(--unit) * 33);}
+    .tr35 {top: calc( var(--unit) * 34);}
+    .tr36 {top: calc( var(--unit) * 35);}
+    .tr37 {top: calc( var(--unit) * 36);}
+    .tr38 {top: calc( var(--unit) * 37);}
+    .tr39 {top: calc( var(--unit) * 38);}
+    .tr40 {top: calc( var(--unit) * 39);}
+    .tr41 {top: calc( var(--unit) * 40);}
+    .tr42 {top: calc( var(--unit) * 41);}
+    .tr43 {top: calc( var(--unit) * 42);}
+    .tr44 {top: calc( var(--unit) * 43);}
+    .tr45 {top: calc( var(--unit) * 44);}
+    .tr46 {top: calc( var(--unit) * 45);}
+    .tr47 {top: calc( var(--unit) * 46);}
+    .tr48 {top: calc( var(--unit) * 47);}      
+}
+
+/* ============================================= */
+/* ========== For Laptops / Desktops ============*/
+/* ============================================= */
+@media only screen and (min-width: 768px){
+    /*Set Width of an Element*/
+    .dw1 {width: calc( var(--unit) * 1);}
+    .dw2 {width: calc( var(--unit) * 2 );}
+    .dw3 {width: calc( var(--unit) * 3 );}
+    .dw4 {width: calc( var(--unit) * 4 );}
+    .dw5 {width: calc( var(--unit) * 5 );}
+    .dw6 {width: calc( var(--unit) * 6 );}
+    .dw7 {width: calc( var(--unit) * 7 );}
+    .dw8 {width: calc( var(--unit) * 8 );}
+    .dw9 {width: calc( var(--unit) * 9 );}
+    .dw10 {width: calc( var(--unit) * 10 );}
+    .dw11 {width: calc( var(--unit) * 11 );}
+    .dw12 {width: calc( var(--unit) * 12 );}
+    
+    /*Set Height of an Element*/
+    .dh1 {height: calc( var(--unit) * 1);}
+    .dh2 {height: calc( var(--unit) * 2);}
+    .dh3 {height: calc( var(--unit) * 3);}
+    .dh4 {height: calc( var(--unit) * 4);}
+    .dh5 {height: calc( var(--unit) * 5);}
+    .dh6 {height: calc( var(--unit) * 6);}
+    .dh7 {height: calc( var(--unit) * 7);}
+    .dh8 {height: calc( var(--unit) * 8);}
+    .dh9 {height: calc( var(--unit) * 9);}
+    .dh10 {height: calc( var(--unit) * 10);}
+    .dh11 {height: calc( var(--unit) * 11);}
+    .dh12 {height: calc( var(--unit) * 12);}
+    
+    /*Set X Grid Coordinate*/
+    .dc1 {left: calc( var(--unit) * 0);}
+    .dc2 {left: calc( var(--unit) * 1);}    
+    .dc3 {left: calc( var(--unit) * 2);}    
+    .dc4 {left: calc( var(--unit) * 3);}    
+    .dc5 {left: calc( var(--unit) * 4);}    
+    .dc6 {left: calc( var(--unit) * 5);}    
+    .dc7 {left: calc( var(--unit) * 6);}    
+    .dc8 {left: calc( var(--unit) * 7);}    
+    .dc9 {left: calc( var(--unit) * 8);}    
+    .dc10 {left: calc( var(--unit) * 9);}    
+    .dc11 {left: calc( var(--unit) * 10);}  
+    .dc12 {left: calc( var(--unit) * 11);}  
+    
+    /*Set Y Grid Coordinate*/
+    .dr1 {top: calc( var(--unit) * 0);}
+    .dr2 {top: calc( var(--unit) * 1);}    
+    .dr3 {top: calc( var(--unit) * 2);}    
+    .dr4 {top: calc( var(--unit) * 3);}    
+    .dr5 {top: calc( var(--unit) * 4);}    
+    .dr6 {top: calc( var(--unit) * 5);}    
+    .dr7 {top: calc( var(--unit) * 6);}    
+    .dr8 {top: calc( var(--unit) * 7);}    
+    .dr9 {top: calc( var(--unit) * 8);}    
+    .dr10 {top: calc( var(--unit) * 9);}    
+    .dr11 {top: calc( var(--unit) * 10);}    
+    .dr12 {top: calc( var(--unit) * 11);}
+    .dr13 {top: calc( var(--unit) * 12);}
+    .dr14 {top: calc( var(--unit) * 13);}
+    .dr15 {top: calc( var(--unit) * 14);}
+    .dr16 {top: calc( var(--unit) * 15);}
+    .dr17 {top: calc( var(--unit) * 16);}
+    .dr18 {top: calc( var(--unit) * 17);}
+    .dr19 {top: calc( var(--unit) * 18);}
+    .dr20 {top: calc( var(--unit) * 19);}
+    .dr21 {top: calc( var(--unit) * 20);}
+    .dr22 {top: calc( var(--unit) * 21);}
+    .dr23 {top: calc( var(--unit) * 22);}
+    .dr24 {top: calc( var(--unit) * 23);}
+    .dr25 {top: calc( var(--unit) * 24);}
+    .dr26 {top: calc( var(--unit) * 25);}
+    .dr27 {top: calc( var(--unit) * 26);}
+    .dr28 {top: calc( var(--unit) * 27);}
+    .dr29 {top: calc( var(--unit) * 28);}
+    .dr30 {top: calc( var(--unit) * 29);}
+    .dr31 {top: calc( var(--unit) * 30);}
+    .dr32 {top: calc( var(--unit) * 31);}
+    .dr33 {top: calc( var(--unit) * 32);}
+    .dr34 {top: calc( var(--unit) * 33);}
+    .dr35 {top: calc( var(--unit) * 34);}
+    .dr36 {top: calc( var(--unit) * 35);}
+    .dr37 {top: calc( var(--unit) * 36);}
+    .dr38 {top: calc( var(--unit) * 37);}
+    .dr39 {top: calc( var(--unit) * 38);}
+    .dr40 {top: calc( var(--unit) * 39);}
+    .dr41 {top: calc( var(--unit) * 40);}
+    .dr42 {top: calc( var(--unit) * 41);}
+    .dr43 {top: calc( var(--unit) * 42);}
+    .dr44 {top: calc( var(--unit) * 43);}
+    .dr45 {top: calc( var(--unit) * 44);}
+    .dr46 {top: calc( var(--unit) * 45);}
+    .dr47 {top: calc( var(--unit) * 46);}
+    .dr48 {top: calc( var(--unit) * 47);}      
+}

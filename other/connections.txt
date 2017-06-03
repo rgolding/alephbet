@@ -1,0 +1,12 @@
+TO GET TO PHPADMIN TO CONTROL MYSQL DATABASE ...
+
+Step 1) Window-->New Terminal
+
+Step 2) rgolding:~/workspace $ mysql-ctl install
+
+Step 3) rgolding:~/workspace $ phpmyadmin-ctl install
+                                                                                                                                                                               [ OK ] 
+Step 4) COPY/PASTE THIS URL IN YOUR BROWSER --> https://alephbet-rgolding.c9users.io/phpmyadmin 
+
+Step 5)       Username: rgolding
+              Password: (Leave Blank)

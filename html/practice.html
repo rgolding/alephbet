@@ -1,0 +1,33 @@
+<html>
+    <head>
+      <script type="text/javascript" src="../js/script.js"></script>
+      <link rel="stylesheet" href="../css/pstyles.css"/>
+      <link rel="stylesheet" href="../css/styles.css"/>
+      <link rel="stylesheet" href="../css/grid.css"/>
+    </head>
+    
+    <body>
+        <div id="headerBox" class="grid pw12 ph2 pc6 pr1 tw12 th2 tc6 tr1 dw24 dh2 dc6 dr1">
+            <h>Welcome</h>
+        </div>
+        <div id="begin" class="grid pw12 ph1 pc6 pr2 tw12 th1 tc6 tr3 dw24 dh1 dc6 dr2">
+            <!--<form action="../php/letters.php">-->
+    		    <button type="begin" id="begin" onclick = "begin();" value = "card" >Begin</button>
+    		<!--</form>-->
+        </div>
+        
+        <div id="card" class="grid pw12 ph2 pc5 pr3    tw12 th2 tc5 tr3    dw24 dh4 dc6 dr3">
+            <div id = "cardItem">
+                <a id = "cardText"></a>
+            </div>
+            <input type="text" name="letter" id = "input">
+            <br></br>
+		    <button type="submit" id="verify" onclick = "verify();" value = "card" >Verify</button>
+		    <button type="submit" id="nextCard" onclick = "cardValue();" value = "card" >Next</button>
+		    <p id = "message"></p>
+        </div>
+        
+        
+        
+    </body>
+</html>
